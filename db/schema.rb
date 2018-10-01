@@ -16,8 +16,8 @@ ActiveRecord::Schema.define(version: 3) do
     t.string "name"
     t.string "location"
     t.integer "costume_inventory"
-    t.integer "employees_count"
-    t.boolean "open?"
+    t.integer "num_of_employes"
+    t.boolean "still_in_business"
     t.datetime "opening_time"
     t.datetime "closing_time"
     t.datetime "created_at", null: false
